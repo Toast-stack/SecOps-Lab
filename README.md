@@ -127,7 +127,7 @@ Contributions are welcome! Feel free to fork the repository and submit a pull re
 This project is open source and available under the MIT License.
 
 ## Contact
-- Zachary Nicholas
 - GitHub: Toast-stack
 - Discord: toast_stack
+- LinkedIn: [Zachary Nicholas](https://www.linkedin.com/in/zachary-nicholas1341/)
 
