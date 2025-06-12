@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Security Alerts Dashboard</title>
+</head>
+<body>
+    <h1>Security Alerts Dashboard</h1>
+    {% if alerts %}
+    <ul>
+        {% for alert in alerts %}
+        <li>
+            <strong>{{ alert.timestamp }}:</strong> {{ alert.resource }} performed a(n) {{ alert.action }} with status {{ alert.status }} - IP: {{ alert.ip }}
+        </li>
+        {% endfor %}
+    </ul>
+    {% else %}
+    <p>No alerts detected.</p>
+    {% endif %}
+</body>
+</html>
